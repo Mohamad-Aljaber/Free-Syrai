@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="image/favicon.png" type="image/favicon.png">
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <!-- Font Awesom -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Free Syrai</title>
+  </head>
+  <body class="light-mode">
+    <!-- start Header -->
+    <section>
+      <header>
+        <div class="container">
+          <a href="#" class="logo">
+            <img  src="image/favicon.png" alt="Logo" />
+            <p>الحكومة السورية المؤقتة</p>
+          </a>
+          <nav>
+            <li class="fas fa-bars toggle-menu hidden icon"></li>
+            <ul>
+              <li>
+                <a href="#" class="active">الرئيسية</a>
+              </li>
+              <li><a href="#news">الأخبار </a></li>
+              <li><a href="#rw">وزارات الحكومة </a></li>
+              <li><a href="#imgs-container">شؤون إعلامية </a></li>
+              <li><a href="#">ميديا </a></li>
+              <li><a href="#">اللغة</a></li>
+              <li><a href=""><input type="checkbox" name="" id="toggle-checkbox" onclick="toggleDarkMode()">
+                <label for="toggle-checkbox"></label></a></li>
+            </ul>
+            <div class="form">
+              <i class="fas fa-search icon"></i>
+            </div>
+          </nav>
+        </div>
+      </header>
+      <!-- End Header -->
+      <!-- start landing -->
+      <div class="landing">
+        <div class="overlay"></div>
+        
+    <div class="text">
+      <div class="content">
+          <h2 id="heading">من نحن</h2>
+          <p id="textContent">
+              حكومة تمثل تطلعات الشعب السوري نحو الحرية والعدالة والمساواة تعمل
+              من خلال مؤسساتها لخدمة أبناء سوريا، وتنظيم المناطق السورية
+              وإدارتها، بشراكة مع المؤسسات والشخصيات الوطنية والجهات ذات العلاقة
+              لتحقيق استقرار المجتمع السوري ونهضته.
+          </p>
+      </div>
+  </div>
+        <i class="fas fa-angle-left change-background fa-2x icon" onclick="changeContent('prev')"></i>
+        <i class="fas fa-angle-right change-background fa-2x icon" onclick="changeContent('next')"></i>
+        <ul class="bullets" id="bullets">
+          <li class=""></li>
+          <li class="active"></li>
+          <li class=""></li>
+        </ul>
+      </div>
+      <a href="#news" class="go-down">
+        <i class="fas fa-angle-double-down fa-2x"></i>
+      </a>
+
+      <!-- End landing -->
+    </section>
+    <section class="section-two">
+      <div class="main-heading">
+        <h2 id="news">آخر الأخبار</h2>
+      </div>
+      <!-- start News -->
+      <div class="news" >
+        <div class="container">
+          <div class="box">
+            <img src="image/news1.jpg" alt="" />
+            <div class="content">
+              <h3>محلي</h3>
+              <p>
+                وزارة الإدارة المحلية والخدمات في الحكومة توقع مذكرة تعاون مشترك
+                مع وحدة دعم الاستقرار
+              </p>
+            </div>
+            <div class="info">
+              <a href="#">قراءة المزيد</a>
+              <i class="fas fa-long-arrow-alt-left icon"></i>
+            </div>
+          </div>
+          <div class="box">
+            <img src="image/news2.jpg" alt="" />
+            <div class="content">
+              <h3>منوع</h3>
+              <p>
+                نظام الأسد يواصل تصفية معتقلي الرأي في سجونه بدلاً من إطلاق
+                سراحهم
+              </p>
+            </div>
+            <div class="info">
+              <a href="#">قراءة المزيد</a>
+              <i class="fas fa-long-arrow-alt-left icon"></i>
+            </div>
+          </div>
+          <div class="box">
+            <img
+              src="image/news3.jpg"
+              alt=""
+            />
+            <div class="content">
+              <h3>بيانات وقرارات</h3>
+              <p>
+                بيـــان حـول التصعيـد الخطيـر للنظـام المجـرم باسـتخدام الأسـلحة
+                المحـرمة دوليـاً علـى المناطق المحررة
+              </p>
+            </div>
+            <div class="info">
+              <a href="#">قراءة المزيد</a>
+              <i class="fas fa-long-arrow-alt-left icon"></i>
+            </div>
+          </div>
+          <div class="box">
+            <img src="image/news4.jpg" alt="" />
+            <div class="content">
+              <h3>محلي</h3>
+              <p>
+                بتوجيه من رئيس الحكومة.. وزارة المالية والاقتصاد تقدم مستلزمات
+                تعليمية لمدرسة عبد الكريم كوسا في مدينة رأس العين
+              </p>
+            </div>
+            <div class="info">
+              <a href="#">قراءة المزيد</a>
+              <i class="fas fa-long-arrow-alt-left icon"></i>
+            </div>
+          </div>
+          <div class="box">
+            <img
+              src="image/news3.jpg"
+              alt=""
+            />
+            <div class="content">
+              <h3>بيانات وقرارات</h3>
+              <p>
+                بيان حول مجزرة مستشفى المعمداني في غزة وإعلان الحداد في المناطق
+                المحررة
+              </p>
+            </div>
+            <div class="info">
+              <a href="#">قراءة المزيد</a>
+              <i class="fas fa-long-arrow-alt-left icon"></i>
+            </div>
+          </div>
+          <div class="box">
+            <img src="image/news5.jpg" alt="" />
+            <div class="content">
+              <h3>منوع</h3>
+              <p>
+                منظمة حقوقية تطالب السلطات اللبنانية بإلغاء قرار بإزالة مخيم
+                للاجئين السوريين
+              </p>
+            </div>
+            <div class="info">
+              <a href="#">قراءة المزيد</a>
+              <i class="fas fa-long-arrow-alt-left icon"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <!-- End News -->
+    
+    <section class="section-three">
+      <div class="container">
+        <a href="#rw" class="go-down">
+          <i class="fas fa-angle-double-down fa-2x"></i>
+        </a>
+        <div class="main-heading" id="rw">
+          <h2>الوزارات الحكومة</h2>
+        </div>
+        <div class="rw" >
+          <div>
+            <span>وزارة الزراعة</span>
+          </div>
+          <div><span>وزارة الحكومة</span></div>
+          <div><span>وزارة التعليم</span></div>
+          <div><span> وزارة الدفاع</span></div>
+          <div><span>وزارة الداخلية</span></div>
+          <div><span>وزارة الإدارة المحلية والخدمات</span></div>
+          <div><span>وزارة المالية والاقتصاد</span></div>
+          <div><span>وزارة الصحة</span></div>
+          <div><span>وزارة التربية والتعليم</span></div>
+          <div><span>وزارة العدل</span></div>
+        </div>
+      </div>
+    </section>
+    <!-- start section-four -->
+    <section class="section-four">
+      <div class="container">
+        <a href="#main-heading" class="go-down">
+          <i class="fas fa-angle-double-down fa-2x"></i>
+        </a>
+        <div class="main-heading" id="main-heading">
+          <h2>شؤون أعلامية</h2>
+        </div>
+        <div class="imgs-container" >
+          <div class="box">
+            <img src="image/image1.jpg" alt="" />
+            <div class="caption">
+              <p>
+                19 شهيداً و44 مصاباً ضحايا النظام المجرم وميليشيا قسد في الشمال
+                السوري المحرر خلال شهر تشرين الثاني 2023
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="image/image2.jpg" alt="" />
+            <div class="caption">
+              <p>
+                التقرير الإحصائي لأبرز انتهاكات النظام المجرم وميلشيا قسد في
+                الشمال السوري خلال النصف الأول من عام 2023
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="image/image3.jpg" alt="" />
+            <div class="caption">
+              <p>
+                شهيد واحد وسبعة مصابين ضحايا النظام المجرم وميليشيا قسد في
+                الشمال السوري المحرر خلال شهر أيار 2023
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="image/image4.jpg" alt="" />
+            <div class="caption">
+              <p>
+                في تشرين الثاني 2022: 17 شهيداً و92 مصاباً من بينهم أطفال ضحايا
+                النظام المجرم وميليشيا قسد في الشمال السوري المحرر
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="image/image5.jpg" alt="" />
+            <div class="caption">
+              <p>
+                وزارة الإدارة المحلية والخدمات في الحكومة تنظم سلسلة من ورشات
+                العمل والجلسات في المناطق المحررة تحت عنوان "حوكمة فعالة في بيئة
+                آمنة"
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="image/image6.jpg" alt="" />
+            <div class="caption">
+              <p>
+                وزير المالية والاقتصاد: أسباب ارتفاع أسعار الخبز المدعوم سببه
+                تخفيض الدعم وتكاليف شراء القمح
+              </p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="image/image7.jpg" alt="" />
+            <div class="caption">
+              <p>نشرة هطول الأمطار في المناطق المحررة حتى تاريخ 14 -1-2024</p>
+            </div>
+          </div>
+          <div class="box">
+            <img src="image/image8.jpg" alt="" />
+            <div class="caption">
+              <p>
+                لتفعيل دور الحجر الزراعي.. المؤسسة العامة لإكثار البذار تقوم
+                بفحص شحنات بذار البطاطا الواردة للتأكد من خلوها للأمراض
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End section-four -->
+    <!-- Start footer -->
+    <div class="footer" id="footer">
+      <div class="container flex">
+        <img src="image/favicon.png" alt="logo" />
+        <p><span>M</span>ohamad <span>A</span>ljaber</p>
+        <div class="social-icon flex">
+          <i class="fab fa-facebook-f icon"></i>
+          <i class="fab fa-twitter icon"></i>
+          <i class="fas fa-home icon"></i>
+          <i class="fab fa-linkedin icon"></i>
+        </div>
+        <p class="copyright">
+          &copy;2024<span>Free Syrai</span>
+          "all right reserved"
+        </p>
+      </div>
+    </div>
+    <!-- End footer -->
+  </body>
+  <script src="main.js"></script>
+</htm
