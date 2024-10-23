@@ -79,7 +79,6 @@ label:active:after {
   width: 45px;
 }
 
-
 ul {
   list-style: none;
   margin: 0;
@@ -490,7 +489,7 @@ header .form i {
   left: 0;
   padding: 20px;
   transition: 0.3s;
-  bottom: -100px;
+  bottom: -150px;
   background-color: #e6e6e7;
   opacity: 80%;
   width: 100%;
